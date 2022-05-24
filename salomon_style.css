@@ -1,0 +1,390 @@
+* {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+}
+a{
+	text-decoration: none;
+}
+.TableSanpham {
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+.TableSanpham td {
+	border: dotted 1px #999;
+	text-align: center;
+	padding: 7px 10px 7px 10px;
+	background: #FFF;
+}
+.TenSanPham {
+	color: #06C;
+	font-weight: bold;
+}
+.Gia {
+	color: #F00;
+	font-weight:  bold;
+}
+.HinhSanPham {
+	width: 130px;
+	height: 97px;
+	margin-bottom: 10px;
+}
+.TableSanpham .tieude {
+	background: url('images/container_header_bg.png');
+	background-repeat: repeat-x;
+	text-align: left;
+	font-weight: bold;
+	font-size: 14px;
+	color: #060;
+}
+/* CSS menu */
+.TableContainer {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #CCCCCC;
+	margin-bottom: 5px;
+}
+.TableContainer .Header {
+	background: url("images/container_header_bg.png") repeat-x;
+	color: #444444;
+	font-weight: bold;
+	height: 35px;
+	padding-left: 7px;
+}
+.LeftMenu {
+	margin: 0;
+	padding: 0;
+}
+.LeftMenu .Level1 {
+	color: #555555;
+	font-weight: bold;
+	list-style-type: none;
+	margin-top: 10px;
+	padding-left: 10px;
+}
+.LeftMenu .Level1 ul {
+	padding-left: 30px;
+}
+.LeftMenu .Level2 {
+	border-bottom: 1px solid #EEEEEE;
+	color: #888888;
+	font-weight: bold;
+	list-style-image: url("images/bullet_icon.png");
+	list-style-type: none;
+	padding: 7px 7px 7px 0;
+}
+.LeftMenu .Level1 a {
+	color: #060;
+	text-decoration: none;
+}
+.LeftMenu .Level1 a:visited {
+	color: #060;
+	text-decoration: none;
+}
+.LeftMenu .Level1 a:active {
+	color: #060;
+	text-decoration: none;
+}
+.LeftMenu .Level1 a:hover {
+	color: #06C;
+	text-decoration: none;
+}
+.LeftMenu .Level2 a {
+	color: #666666;
+	text-decoration: none;
+}
+.LeftMenu .Level2 a:visited {
+	color: #999999;
+	text-decoration: none;
+}
+.LeftMenu .Level2 a:visited {
+	color: #999999;
+	text-decoration: none;
+}
+.LeftMenu .Level2 a:hover {
+	color: #999999;
+	text-decoration: none;
+}
+/* Kết thúc CSS Menu */
+
+/* Dropdown menu */
+
+.nav .level2 {
+	display: none;
+	background: #5f6975;
+	padding: 0;
+	position: absolute;
+	top: 100%;
+}
+.nav .level1 li:hover > ul {
+	display: block;
+}
+.nav .level1 {
+	padding: 0 0px;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+	text-align: left;
+}
+
+.nav .level1 li {
+	font-weight: bold;
+	border-right:  solid 1px #fff;
+	float: left;
+}
+.nav .level1 li:hover {
+	background: #4b545f;
+}
+.nav .level1 li:hover a {
+	color: #fff;
+}
+.nav .level1 li a {
+	display: block;
+	padding: 7px 15px;
+	color: #031D8A;
+	text-decoration: none;
+}
+
+.nav .level2 li {
+	float: none;
+	list-style-type: none;
+	font-weight: normal;
+	border-top: 1px solid #6b727c;
+	border-bottom: 1px solid #575f6a;
+	position: relative;
+}
+.nav .level2 li a {
+	padding: 7px 20px;
+	color: #fff;
+}
+.nav .level2 li a:hover {
+	background: #4b545f;
+}
+
+
+
+/* Layout CSS */
+BODY {
+	margin: auto;
+	background:url(images/bg.png) #DDE2DC;
+	background-repeat: repeat-x;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: left;
+}
+#Skin_Container {
+	background:#ecf1f4;
+	border-left: solid 1px #ccc;
+	border-right: solid 1px #ccc;
+}
+#Skin_Banner {
+	background: url(images/banner.png);
+	height: 117px;
+	width: 1000px;
+}
+#Skin_Menu_Ngang {
+	height: 50px;
+	background:url(images/menu_bg.png);
+	background-repeat: repeat-x;
+	text-align: right;
+	font-weight: bold;
+	color: #111;
+	padding-right: 0px;
+}
+#Skin_Left {
+	
+}
+#Skin_Content {
+	width: 100%;
+	padding: 5px;
+}
+#Skin_Footer {
+	padding: 5px;
+}
+#Skin_Footer p{
+	background: #04689B;
+	color: #FFFFFF;
+	padding: 10px;
+	margin: 0px;
+}
+#Skin_Footer .style1{
+	background: #4D625D;
+	color: #FFFFFF;
+	padding: 10px;
+	margin: 0px;
+}
+#Skin_Footer .style2{
+	background: #0776BE;
+	color: #FFFFFF;
+	padding: 10px;
+	margin: 0px;
+}
+#Skin_Footer .style3{
+	background: #ffffff;
+	color: #666666;
+	padding: 10px;
+	margin: 0px;
+}
+/* End layout CSS */
+
+/* Css biễu mẫu */
+.TableForm {
+	background:#ffffff;
+	font: 11px;
+	border-collapse:collapse;
+}
+.TableForm td{
+	border: solid 1px #ccc;
+	padding: 5px;
+}
+.TableForm .TieuDe {
+	background: #0776BE;
+	color: #FFFFFF;
+	font-weight:bold;
+}
+.TableForm .Left {
+	background: #eee;
+	text-align: right;
+	font-weight: bold;
+	width: 30%;
+}
+.TableForm .Right {
+	text-align: left;
+}
+.TableForm .Bottom {
+	text-align: center;
+}
+.TableForm input {
+	border: solid 1px #ccc;
+	background: #ffffff;
+	color: #333333;
+}
+.TableForm select {
+	border: solid 1px #ccc;
+	background: #ffffff;
+	color: #333333;
+}
+.TableForm .Button 
+{
+	color:#fff;
+	border: solid 1px #ccc;
+	background: #0776BE;
+	padding: 2px;
+	margin-right: 5px;
+}
+#lblBatBuoc {
+	color: red;
+}
+.BatBuoc {
+	color: red;
+}
+
+/* Kết thúc css biểu mẫu */
+
+/* Css bảng dữ liệu */
+.TableData{
+    background:#ffffff;
+    font: 11px;
+    border-collapse:collapse;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+.TableData TH {
+    background: #0776BE;
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+    border: solid 1px #ccc;
+}
+
+.TableData .cotSTT{
+    text-align:center;
+    width: 10%;
+}
+.TableData .cotNutChucNang{
+    text-align:center;
+    width: 50px;
+}
+.TableData .cotCheckBox{
+    text-align:center;
+    width: 30px;
+}
+.TableData .cotTen{
+    text-align:left;
+    font-weight: bold;
+    color: #2780B9;
+    min-width: 150px;
+}
+.TableData .cotSo{
+    text-align:right;
+}
+.TableData .cotText{
+    text-align:left;
+}
+.TableData .cotNgay{
+    text-align:center;
+    width: 80px;
+}
+.TableData .cotHangSanXuat{
+    text-align:left;
+    width: 20%;
+}
+.TableData .cotGia{
+    text-align:right;
+    font-weight: bold;
+    width: 30%;
+    color: red;
+}
+.TableData .cotSoLuong {
+    text-align: center;
+    width: 5%;
+}
+.TableData .cotSoLuong  input{
+    text-align: center;
+    font-weight: bold;
+}
+
+.TableData .InputButton 
+{
+    color:#fff;
+    border: solid 1px #ccc;
+    background: #0776BE;
+    padding: 3px;
+}
+.TableData .phantrang{
+    text-align:right;
+}
+.TableData .themmoi{
+    text-align:right;
+}
+.TableData .khongdulieu {
+    text-align: center;
+    color: red;
+}
+.TableData td {
+    border: solid 1px #ccc;
+}
+
+/* Css chi tiết sản phẩm */
+.TenSanPhamLon {
+	color:#2780B9;
+	font-weight:bold;
+	font-size: 18px;
+}
+.GiaCu {
+	color: #990000;
+	text-decoration: line-through;
+	font-weight: bold;
+}
+.LienKetTinhNang, .LienKetTinhNang:visited {
+	background: #0776BE;
+	color: #ffffff;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 11px;
+}
+.Frame {
+	border: solid 1px #CCCCCC;
+	margin-top: 5px;
+}
+/* Kết thúc css chi tiết sản phẩm */
